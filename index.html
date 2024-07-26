@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospital ass</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow: hidden;
+            width: 100%;
+        }
+        li{
+            float: left;
+            display: inline;
+            padding: 30px;
+            color: white;
+         }
+        li:hover{
+            background-color: rgb(41, 77, 223);
+        }
+        .li1{
+            display: inline-block;
+            color:white;
+            text-decoration: none;
+        }
+        .dropd{
+            display:none;
+        }
+        .li1:hover .dropd{
+            display: block;
+
+        }   
+        .hos1{
+            background-color: #ffffff;
+            background-image: url("download.jpeg");
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+        div.gallery {
+            margin: 6px;
+            border: 3px solid #ccc;
+            float: left;
+            width :280px; 
+            height :350px;
+        }
+
+        div.gallery:hover {
+            border: 1px black;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: 80%;
+        }
+
+        div.description {
+            padding: 10px;
+            text-align: center;
+        }
+        .med img{
+            display: inline;
+            margin: 6px;
+            width: 480px;
+            height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>home</li>
+        <li>doctors</li>
+        <li>medicine</li>
+        <li class="li1">
+            contact
+            <div class="dropd">
+                <p>reseption</p>
+                <p>manger</p>
+                <p>owner</p>
+            </div>
+        </li>
+    </ul>
+    <div class="hos1">
+        <h1 text align ="center" >Sadaka Hospital</h1>
+        <h2 text align ="center" >for better health <3 </h2>
+        <p text align ="center">your healthe is our priority. we are committed to providing</p>
+    </div>
+    <div>
+        <h3 text align ="center">our doctors</h3>
+        <div class="gallery">
+            <img src="depositphotos_326395572-stock-photo-portrait-male-doctor-stethoscope-wearing.jpg" alt="">
+            <div class="description">dr mahmed</div>
+        </div>
+        <div class="gallery">
+            <img src="360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg" alt="">
+            <div class="description">dr ahmed</div>
+        </div> 
+        <div class="gallery">
+            <img src="360_F_320523164_tx7Rdd7I2XDTvvKfz2oRuRpKOPE5z0ni.jpg" alt="">
+            <div class="description">dr ayman</div>
+        </div>
+        <div class="gallery">
+        <img src="profile-photo-attractive-family-doc-600nw-1724693776.webp" alt="">
+            <div class="description">dr huda</div>
+        </div>
+        <div class="gallery">
+        <img src="woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.avif" alt="">
+            <div class="description">dr ola</div>
+    </div>
+    <h3 text align ="center">medicine</h3>
+    <p text align ="center">we take care about your medicine</p>
+    <div class="med">
+        <img src="360_F_118425925_n2GZJR42P1ai0p3qYmNe375LCd6kQ9R4.jpg" alt="">
+    </div>
+</body>
+</html>
